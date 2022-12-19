@@ -7,16 +7,24 @@ function Task4() {
     <>
       <h2>Task 4</h2>
       <div className={styles.container}>
-        <p>turnip </p>
-        <p>greens </p>
-        <p>yarrow </p>
-        <p>ricebean </p>
-        <p>rutabaga </p>
-        <p>endive </p>
-        <p>cauliflower</p>
-        <p>sealettuce</p>
-        <p>kohlrabi </p>
-        <p>amarnath </p>
+        <div className={styles.innerContainer}>
+          <p>turnip </p>
+          <p>greens </p>
+          <p>yarrow </p>
+          <p>ricebean </p>
+        </div>
+
+        <div className={styles.innerContainer}>
+          <p>rutabaga </p>
+          <p>endive </p>
+          <p>cauliflower</p>
+        </div>
+
+        <div className={styles.innerContainer}>
+          <p>sealettuce</p>
+          <p>kohlrabi </p>
+          <p>amarnath </p>
+        </div>
       </div>
     </>
   );
