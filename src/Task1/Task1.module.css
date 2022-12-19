@@ -1,0 +1,24 @@
+.container {
+  width: 33%;
+  min-width: 33%;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px black;
+  border-radius: 7.5px;
+}
+
+.padding {
+  padding: 0 0.5rem;
+}
+
+.container p {
+  background: rgb(39, 168, 190);
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 5px;
+  border: 2px solid rgb(46, 126, 126);
+}
+
+h2 {
+  text-align: left;
+}

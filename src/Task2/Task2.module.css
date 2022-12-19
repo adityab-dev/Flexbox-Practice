@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 600px;
+}
+
+.container p {
+  background: rgb(39, 168, 190);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid rgb(46, 126, 126);
+
+  flex-basis: 100%;
+}

@@ -1,0 +1,15 @@
+.parent {
+  border: solid 2px black;
+  width: 33vw;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  background: rgb(39, 168, 190);
+  color: white;
+  width: 7rem;
+  height: 3rem;
+}
